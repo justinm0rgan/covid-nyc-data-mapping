@@ -1,0 +1,379 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds239_20185_2018_state_M'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2014-2018
+Geographic level: State
+Dataset:          2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+   NHGIS code:    2014_2018_ACS5a
+   NHGIS ID:      ds239
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (M) Margins of error
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AJWM
+ 
+2. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AJWN
+ 
+3. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  AJWV
+ 
+4. Hispanic or Latino Origin
+   Universe:    Total population
+   Source code: B03003
+   NHGIS code:  AJWW
+ 
+5. Means of Transportation to Work
+   Universe:    Workers 16 years and over
+   Source code: B08301
+   NHGIS code:  AJXC
+ 
+6. Relationship by Household Type (Including Living Alone) for the Population 65 Years and Over
+   Universe:    Population 65 years and over
+   Source code: B09020
+   NHGIS code:  AJXI
+ 
+7. Household Type (Including Living Alone)
+   Universe:    Households
+   Source code: B11001
+   NHGIS code:  AJXK
+ 
+8. Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15003
+   NHGIS code:  AJYP
+ 
+9. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  AJY4
+ 
+10. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AJY9
+ 
+11. Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AJZA
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (M):
+    Margins of error
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AJWM
+        AJWMM001:    Total
+ 
+    Table 2:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AJWN
+        AJWNM001:    Total
+        AJWNM002:    White alone
+        AJWNM003:    Black or African American alone
+        AJWNM004:    American Indian and Alaska Native alone
+        AJWNM005:    Asian alone
+        AJWNM006:    Native Hawaiian and Other Pacific Islander alone
+        AJWNM007:    Some other race alone
+        AJWNM008:    Two or more races
+        AJWNM009:    Two or more races: Two races including Some other race
+        AJWNM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 3:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AJWV
+        AJWVM001:    Total
+        AJWVM002:    Not Hispanic or Latino
+        AJWVM003:    Not Hispanic or Latino: White alone
+        AJWVM004:    Not Hispanic or Latino: Black or African American alone
+        AJWVM005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM006:    Not Hispanic or Latino: Asian alone
+        AJWVM007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM008:    Not Hispanic or Latino: Some other race alone
+        AJWVM009:    Not Hispanic or Latino: Two or more races
+        AJWVM010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AJWVM012:    Hispanic or Latino
+        AJWVM013:    Hispanic or Latino: White alone
+        AJWVM014:    Hispanic or Latino: Black or African American alone
+        AJWVM015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM016:    Hispanic or Latino: Asian alone
+        AJWVM017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM018:    Hispanic or Latino: Some other race alone
+        AJWVM019:    Hispanic or Latino: Two or more races
+        AJWVM020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 4:     Hispanic or Latino Origin
+    Universe:    Total population
+    Source code: B03003
+    NHGIS code:  AJWW
+        AJWWM001:    Total
+        AJWWM002:    Not Hispanic or Latino
+        AJWWM003:    Hispanic or Latino
+ 
+    Table 5:     Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08301
+    NHGIS code:  AJXC
+        AJXCM001:    Total
+        AJXCM002:    Car, truck, or van
+        AJXCM003:    Car, truck, or van: Drove alone
+        AJXCM004:    Car, truck, or van: Carpooled
+        AJXCM005:    Car, truck, or van: Carpooled: In 2-person carpool
+        AJXCM006:    Car, truck, or van: Carpooled: In 3-person carpool
+        AJXCM007:    Car, truck, or van: Carpooled: In 4-person carpool
+        AJXCM008:    Car, truck, or van: Carpooled: In 5- or 6-person carpool
+        AJXCM009:    Car, truck, or van: Carpooled: In 7-or-more-person carpool
+        AJXCM010:    Public transportation (excluding taxicab)
+        AJXCM011:    Public transportation (excluding taxicab): Bus or trolley bus
+        AJXCM012:    Public transportation (excluding taxicab): Streetcar or trolley car (carro publico in Puerto Rico)
+        AJXCM013:    Public transportation (excluding taxicab): Subway or elevated
+        AJXCM014:    Public transportation (excluding taxicab): Railroad
+        AJXCM015:    Public transportation (excluding taxicab): Ferryboat
+        AJXCM016:    Taxicab
+        AJXCM017:    Motorcycle
+        AJXCM018:    Bicycle
+        AJXCM019:    Walked
+        AJXCM020:    Other means
+        AJXCM021:    Worked at home
+ 
+    Table 6:     Relationship by Household Type (Including Living Alone) for the Population 65 Years and Over
+    Universe:    Population 65 years and over
+    Source code: B09020
+    NHGIS code:  AJXI
+        AJXIM001:    Total
+        AJXIM002:    In households
+        AJXIM003:    In households: In family households
+        AJXIM004:    In households: In family households: Householder
+        AJXIM005:    In households: In family households: Householder: Male
+        AJXIM006:    In households: In family households: Householder: Female
+        AJXIM007:    In households: In family households: Spouse
+        AJXIM008:    In households: In family households: Parent
+        AJXIM009:    In households: In family households: Parent-in-law
+        AJXIM010:    In households: In family households: Other relatives
+        AJXIM011:    In households: In family households: Nonrelatives
+        AJXIM012:    In households: In nonfamily households
+        AJXIM013:    In households: In nonfamily households: Householder
+        AJXIM014:    In households: In nonfamily households: Householder: Male
+        AJXIM015:    In households: In nonfamily households: Householder: Male: Living alone
+        AJXIM016:    In households: In nonfamily households: Householder: Male: Not living alone
+        AJXIM017:    In households: In nonfamily households: Householder: Female
+        AJXIM018:    In households: In nonfamily households: Householder: Female: Living alone
+        AJXIM019:    In households: In nonfamily households: Householder: Female: Not living alone
+        AJXIM020:    In households: In nonfamily households: Nonrelatives
+        AJXIM021:    In group quarters
+ 
+    Table 7:     Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  AJXK
+        AJXKM001:    Total
+        AJXKM002:    Family households
+        AJXKM003:    Family households: Married-couple family
+        AJXKM004:    Family households: Other family
+        AJXKM005:    Family households: Other family: Male householder, no wife present
+        AJXKM006:    Family households: Other family: Female householder, no husband present
+        AJXKM007:    Nonfamily households
+        AJXKM008:    Nonfamily households: Householder living alone
+        AJXKM009:    Nonfamily households: Householder not living alone
+ 
+    Table 8:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AJYP
+        AJYPM001:    Total
+        AJYPM002:    No schooling completed
+        AJYPM003:    Nursery school
+        AJYPM004:    Kindergarten
+        AJYPM005:    1st grade
+        AJYPM006:    2nd grade
+        AJYPM007:    3rd grade
+        AJYPM008:    4th grade
+        AJYPM009:    5th grade
+        AJYPM010:    6th grade
+        AJYPM011:    7th grade
+        AJYPM012:    8th grade
+        AJYPM013:    9th grade
+        AJYPM014:    10th grade
+        AJYPM015:    11th grade
+        AJYPM016:    12th grade, no diploma
+        AJYPM017:    Regular high school diploma
+        AJYPM018:    GED or alternative credential
+        AJYPM019:    Some college, less than 1 year
+        AJYPM020:    Some college, 1 or more years, no degree
+        AJYPM021:    Associate's degree
+        AJYPM022:    Bachelor's degree
+        AJYPM023:    Master's degree
+        AJYPM024:    Professional school degree
+        AJYPM025:    Doctorate degree
+ 
+    Table 9:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AJY4
+        AJY4M001:    Total
+        AJY4M002:    Under .50
+        AJY4M003:    .50 to .99
+        AJY4M004:    1.00 to 1.24
+        AJY4M005:    1.25 to 1.49
+        AJY4M006:    1.50 to 1.84
+        AJY4M007:    1.85 to 1.99
+        AJY4M008:    2.00 and over
+ 
+    Table 10:    Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AJY9
+        AJY9M001:    Total
+        AJY9M002:    Less than $10,000
+        AJY9M003:    $10,000 to $14,999
+        AJY9M004:    $15,000 to $19,999
+        AJY9M005:    $20,000 to $24,999
+        AJY9M006:    $25,000 to $29,999
+        AJY9M007:    $30,000 to $34,999
+        AJY9M008:    $35,000 to $39,999
+        AJY9M009:    $40,000 to $44,999
+        AJY9M010:    $45,000 to $49,999
+        AJY9M011:    $50,000 to $59,999
+        AJY9M012:    $60,000 to $74,999
+        AJY9M013:    $75,000 to $99,999
+        AJY9M014:    $100,000 to $124,999
+        AJY9M015:    $125,000 to $149,999
+        AJY9M016:    $150,000 to $199,999
+        AJY9M017:    $200,000 or more
+ 
+    Table 11:    Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AJZA
+        AJZAM001:    Median household income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 15.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2020. 
+        http://doi.org/10.18128/D050.V15.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
